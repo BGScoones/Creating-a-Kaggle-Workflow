@@ -1,2 +1,3 @@
 # Creating-a-Kaggle-Workflow
-Creating a workflow of functions for use in the kaggle Titanic competition
+
+In this project, I predict which passengers will survive on the Titanic, using data provided by Kaggle for one of their beginner competitions. I create a workflow of functions to clean and transform the data in the data set, perform some feature engineering, and then analyze the data with pivot tables and histograms. Finally, I make predictions using a random forest classifier, knn, and logistic regression models, using features selected with sci-kit learn's RFECV class and performing hyperparameter optimization with sci-kit learn's GridSearchCV class. After finding the best model using these basic methods, I submit it to Kaggle.
